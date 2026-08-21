@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jacklv-coder.github.io/tilely-site/sitemap.xml

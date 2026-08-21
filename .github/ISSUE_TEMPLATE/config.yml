@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Tilely 隐私政策
+    url: https://jacklv-coder.github.io/tilely-site/privacy/
+    about: 提交公开问题前，请先了解 Tilely 如何处理数据。

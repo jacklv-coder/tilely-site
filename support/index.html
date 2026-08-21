@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f1d9">
+  <meta name="description" content="Tilely 支持与帮助：查看数据、iCloud、共同空间、通知、购买恢复和故障反馈说明。">
+  <link rel="canonical" href="https://jacklv-coder.github.io/tilely-site/support/">
+  <link rel="icon" type="image/png" href="../assets/tilely-icon.png">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <title>支持与帮助｜Tilely</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header shell">
+    <a class="brand" href="../" aria-label="返回 Tilely 首页">
+      <img src="../assets/tilely-icon.png" width="52" height="52" alt="">
+      <span><strong>Tilely</strong><small>时间积木与每日复盘</small></span>
+    </a>
+    <nav aria-label="主要导航">
+      <a href="../">首页</a>
+      <a href="../privacy/">隐私</a>
+      <a href="./" aria-current="page">支持</a>
+    </nav>
+  </header>
+
+  <main id="main" class="legal-main shell">
+    <header class="legal-hero">
+      <p class="eyebrow coral">SUPPORT</p>
+      <h1>支持与帮助</h1>
+      <p>先查看常见问题；如果仍未解决，可以提交公开支持请求。请勿在公开页面发送私人记录、邀请链接或 Apple 账户信息。</p>
+      <div class="support-actions">
+        <a class="button primary" href="https://github.com/jacklv-coder/tilely-site/issues/new?template=support.yml" rel="noopener noreferrer">提交支持请求</a>
+        <a class="button secondary" href="../privacy/">查看隐私政策</a>
+      </div>
+    </header>
+
+    <section class="faq-list" aria-label="常见问题">
+      <details>
+        <summary>数据保存在哪里？</summary>
+        <p>活动、计划、记录与设置首先保存在本地 App 沙盒；登录 iCloud 后，支持的数据可通过 Apple CloudKit 同步到你自己的私有数据库。Tilely 没有用于读取这些内容的开发者服务器。详细记录中的图片当前仍保存在本地。</p>
+      </details>
+      <details>
+        <summary>如何备份或导出记录？</summary>
+        <p>打开“我的—数据与隐私—导出我的数据”，可以通过系统分享页保存完整 JSON、CSV 记录表和详细记录媒体目录。当前版本暂不支持在 App 内直接导入恢复。</p>
+      </details>
+      <details>
+        <summary>删除 App 后能自动恢复记录吗？</summary>
+        <p>重新安装并使用同一 Apple 账户登录 iCloud 后，已成功同步的活动、计划、计时和设置可以重新下载。本地图片等尚未进入 CloudKit 的内容仍取决于 Apple 的设备备份，Tilely 不保证一定恢复；删除前请先导出重要内容。</p>
+      </details>
+      <details>
+        <summary>共同空间会分享什么？</summary>
+        <p>只分享成员信息、共同计划、活动分类快照以及接受、调整、开始和完成等必要进度。私人文字、图片、完整时间线、个人目标和暂停原因不会自动分享。</p>
+      </details>
+      <details>
+        <summary>为什么看不到“一起”Tab？</summary>
+        <p>“一起”是按需出现的第四个 Tab。请先在“我的—和家人朋友一起使用”中创建共同空间，或接受他人发来的 iCloud 分享邀请。每位成员需要使用自己的 Apple 账户登录 iCloud。</p>
+      </details>
+      <details>
+        <summary>为什么没有收到提醒？</summary>
+        <p>请先在 Tilely 的“我的”页面开启提醒，并在 iOS“设置—通知—Tilely”中允许通知。专注模式、省电模式等系统设置也可能影响提醒的呈现。</p>
+      </details>
+      <details>
+        <summary>如何恢复 Tilely Pro？</summary>
+        <p>打开“我的—Tilely Pro”，点击“恢复购买”。请确保设备登录的是购买 Tilely Pro 时使用的 Apple 账户。恢复购买不会删除本地记录。</p>
+      </details>
+      <details>
+        <summary>iCloud 或共同空间出现错误怎么办？</summary>
+        <p>如果弹窗中出现诊断编号，可点击“复制诊断日志”，然后在支持请求中说明触发步骤并粘贴日志。日志经过脱敏，不记录计划标题、成员姓名、业务内容、分享链接或 Apple 账户标识；提交前仍建议快速检查一遍。</p>
+      </details>
+      <details>
+        <summary>如何删除全部数据？</summary>
+        <p>打开“我的—数据与隐私—清除全部数据”。Tilely 会先停止或退出当前共同空间，再删除本机数据并同步删除你的私有 iCloud 数据。该操作无法撤销，执行前建议先导出。</p>
+      </details>
+    </section>
+
+    <section class="privacy-banner support-banner">
+      <div class="privacy-icon" aria-hidden="true">💬</div>
+      <div>
+        <p class="eyebrow mint-text">NEED MORE HELP?</p>
+        <h2>告诉我们发生了什么</h2>
+        <p>请附上设备型号、iOS 版本、Tilely 版本、复现步骤和脱敏诊断日志。不要公开上传个人照片或邀请链接。</p>
+      </div>
+      <a class="button yellow-button" href="https://github.com/jacklv-coder/tilely-site/issues/new?template=support.yml" rel="noopener noreferrer">提交问题</a>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <p>© 2026 Tilely. 保留所有权利。</p>
+    <nav aria-label="页脚导航"><a href="../">首页</a><a href="../privacy/">隐私政策</a><a href="./">支持与帮助</a></nav>
+  </footer>
+</body>
+</html>

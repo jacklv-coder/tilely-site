@@ -1,0 +1,78 @@
+name: Tilely 支持请求
+description: 反馈故障或请求使用帮助（这是公开页面，请不要提交私人内容）
+title: "[支持] "
+labels:
+  - support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你帮助 Tilely 变得更好。GitHub Issue 是公开页面，请勿提交计划标题、成员姓名、个人照片、共同空间邀请链接、Apple 账户信息或其他私人内容。
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - App 启动或界面
+        - 计划、计时或记录
+        - iCloud 同步
+        - 共同空间
+        - 通知
+        - 购买或恢复购买
+        - 数据导出或删除
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: Tilely 版本
+      description: 可在“我的”页面底部查看，例如 1.0 (1)。
+      placeholder: 1.0 (1)
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: 设备与系统
+      placeholder: 例如 iPhone 16，iOS 26.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请从打开 App 开始，按顺序说明你进行了哪些操作。
+      placeholder: |
+        1. 打开……
+        2. 点击……
+        3. 出现……
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果与实际结果
+      placeholder: 我原本希望……，实际却……
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 脱敏诊断日志（可选）
+      description: 如 App 提供“复制诊断日志”，可粘贴在这里。提交前请再次确认其中没有私人内容。
+      render: text
+
+  - type: checkboxes
+    id: privacy-check
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已确认以上内容不包含邀请链接、Apple 账户信息、成员姓名、私人记录或个人照片。
+          required: true
