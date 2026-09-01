@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢你帮助 Tilely 变得更好。GitHub Issue 是公开页面，请勿提交计划标题、成员姓名、个人照片、共同空间邀请链接、Apple 账户信息或其他私人内容。
+        感谢你帮助 Tilely 变得更好。GitHub Issue 是公开页面，请勿提交计划标题、个人照片、Apple 账户信息或其他私人内容。
 
   - type: dropdown
     id: category
@@ -17,7 +17,6 @@ body:
         - App 启动或界面
         - 计划、计时或记录
         - iCloud 同步
-        - 共同空间
         - 通知
         - 购买或恢复购买
         - 数据导出或删除
@@ -74,5 +73,5 @@ body:
     attributes:
       label: 隐私确认
       options:
-        - label: 我已确认以上内容不包含邀请链接、Apple 账户信息、成员姓名、私人记录或个人照片。
+        - label: 我已确认以上内容不包含 Apple 账户信息、私人记录或个人照片。
           required: true

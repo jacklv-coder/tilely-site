@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f8f1d9">
-  <meta name="description" content="Tilely 隐私政策：了解活动、计划、时间记录、图片和共同空间数据如何保存与处理。">
+  <meta name="description" content="Tilely 隐私政策：了解活动、计划、时间记录和图片如何保存与处理。">
   <link rel="canonical" href="https://jacklv-coder.github.io/tilely-site/privacy/">
   <link rel="icon" type="image/png" href="../assets/tilely-icon.png">
   <link rel="stylesheet" href="../assets/styles.css">
@@ -29,7 +29,7 @@
       <p class="eyebrow purple">PRIVACY POLICY</p>
       <h1>隐私政策</h1>
       <p>Tilely 是一款本地优先的时间计划、活动计时与复盘应用。我们尽量减少数据处理，不使用广告、跨 App 追踪或第三方分析。</p>
-      <p><strong>生效日期：2026 年 8 月 31 日</strong></p>
+      <p><strong>生效日期：2026 年 9 月 1 日</strong></p>
     </header>
 
     <div class="legal-layout">
@@ -38,7 +38,6 @@
         <a href="#feedback">问题反馈</a>
         <a href="#export">导出</a>
         <a href="#camera">图片与相机</a>
-        <a href="#collaboration">共同空间</a>
         <a href="#notifications">通知</a>
         <a href="#retention">保存与删除</a>
         <a href="#children">儿童隐私</a>
@@ -56,7 +55,7 @@
         <section id="feedback" class="legal-card">
           <h2>问题反馈</h2>
           <p>只有当你在“我的—数据与隐私—问题反馈”中主动点击提交时，Tilely 才会发送你填写的问题或建议，以及 App 版本、Build、iOS 版本、设备类别和语言区域。联系方式为选填，不填写仍可提交。</p>
-          <p>诊断信息默认不发送；只有在你主动开启选项时才会附上经过脱敏的 iCloud 运行日志。日志不记录计划标题、成员姓名、记录正文、照片、邀请链接或 Apple 账户标识。</p>
+          <p>诊断信息默认不发送；只有在你主动开启选项时才会附上经过脱敏的 iCloud 运行日志。日志不记录计划标题、记录正文、照片或 Apple 账户标识。</p>
           <p>反馈由 Cloudflare Worker 加密转发到开发者的私有 GitHub Issues 仓库，仅用于客户支持、回复和改进 Tilely。Cloudflare 与 GitHub 会按各自政策处理必要的网络日志和托管数据；这些数据不用于广告、跨 App 追踪或画像。</p>
         </section>
 
@@ -68,27 +67,20 @@
 
         <section id="camera" class="legal-card">
           <h2>图片与相机</h2>
-          <p>从照片中添加图片时，Tilely 使用 Apple 提供的系统照片选择器，不读取你没有选择的照片。只有当你主动点击“拍照”或“扫一扫加入”时，Tilely 才会请求相机权限。</p>
-          <p>扫码画面仅用于在设备上识别共同空间邀请链接，不会保存为照片。导入图片会生成压缩后的本地副本，并移除原图片中可能包含的位置等元数据。你可以随时从详细记录中移除图片。</p>
-        </section>
-
-        <section id="collaboration" class="legal-card">
-          <h2>共同空间</h2>
-          <p>共同空间是可选功能。只有在你主动创建或接受 Apple 的 iCloud 分享邀请后，Tilely 才会通过 CloudKit 共享成员显示名称、共同计划、活动分类快照、接受或调整状态，以及开始和完成等必要进度事件。</p>
-          <p>共同空间不会自动分享你的完整时间线、个人目标、暂停原因、私人文字或图片。空间发起人可以停止共享，成员也可以离开。Apple 对 iCloud 和 CloudKit 的处理受 Apple 隐私政策约束。</p>
-          <p>发起人可以展示邀请二维码或复制邀请链接。任何获得该二维码或链接、并登录 iCloud 的人都可能加入对应空间，因此请只分享给信任的人。Tilely 不会把邀请链接写入诊断日志。</p>
+          <p>从照片中添加图片时，Tilely 使用 Apple 提供的系统照片选择器，不读取你没有选择的照片。只有当你主动点击“拍照”时，Tilely 才会请求相机权限。</p>
+          <p>导入图片会生成压缩后的本地副本，并移除原图片中可能包含的位置等元数据。你可以随时从详细记录中移除图片。</p>
         </section>
 
         <section id="notifications" class="legal-card">
           <h2>通知</h2>
-          <p>只有在你主动开启提醒、开始休息倒计时或使用共同空间后，Tilely 才会使用系统通知能力。通知用于持续记录、倒计时结束提醒和接收 iCloud 数据变更，不会展示广告内容。</p>
+          <p>只有在你主动开启提醒或开始休息倒计时后，Tilely 才会使用系统通知能力。通知用于持续记录、倒计时结束提醒和接收 iCloud 数据变更，不会展示广告内容。</p>
           <p>你可以在 App 内关闭常规提醒，也可以随时在 iOS 系统设置中调整通知权限。</p>
         </section>
 
         <section id="retention" class="legal-card">
           <h2>保存与删除</h2>
           <p>本地数据会保存在设备中，直到你删除单条记录、在“我的—数据与隐私”中选择“清除全部数据”，或从设备卸载 Tilely。</p>
-          <p>删除单条记录会同时删除其文字和本地图片。选择“清除全部数据”时，Tilely 会先停止或退出当前共同空间，再删除本机数据并将删除同步到你的私有 iCloud 数据。此操作不会替其他成员删除其个人记录。</p>
+          <p>删除单条记录会同时删除其文字和本地图片。选择“清除全部数据”时，Tilely 会删除本机数据，并将删除同步到你的私有 iCloud 数据。</p>
           <p>用户主动提交的反馈会在处理问题和改进产品所需期间保存在开发者的私有支持系统中。如需删除，请通过支持页面联系开发者并提供 App 返回的反馈编号。</p>
           <p class="notice">清除或卸载前，建议先使用 App 内的数据导出功能保存重要内容。当前版本的本地图片不会通过 CloudKit 自动恢复。</p>
         </section>
@@ -96,7 +88,7 @@
         <section id="children" class="legal-card">
           <h2>儿童隐私</h2>
           <p>Tilely 是通用效率工具，不要求创建开发者账号，也不会主动收集儿童个人信息。家长或监护人可以根据实际情况陪同未成年人使用。</p>
-          <p>共同空间定位为共同计划协作，不提供位置追踪、屏幕监控、成员排名或强制控制。</p>
+          <p>Tilely 不提供位置追踪、屏幕监控、成员排名或强制控制。</p>
         </section>
 
         <section id="changes" class="legal-card">
@@ -106,7 +98,7 @@
 
         <section id="contact" class="legal-card">
           <h2>联系与支持</h2>
-          <p>如果你对本政策或 Tilely 的数据处理有疑问，可以通过支持页面联系我们。推荐使用 App 内的私密反馈入口；如使用公开 GitHub 页面，请不要附上计划标题、成员姓名、邀请链接、Apple 账户信息或其他私人内容。</p>
+          <p>如果你对本政策或 Tilely 的数据处理有疑问，可以通过支持页面联系我们。推荐使用 App 内的私密反馈入口；如使用公开 GitHub 页面，请不要附上计划标题、Apple 账户信息或其他私人内容。</p>
           <div class="support-actions">
             <a class="button primary" href="../support/">前往支持页面</a>
           </div>
