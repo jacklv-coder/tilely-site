@@ -183,6 +183,23 @@ h1 span { color: var(--blue); }
 .button.secondary { background: rgba(255, 255, 255, 0.75); }
 .button:hover:not(span), .button:focus-visible:not(span) { transform: translateY(-2px); outline: none; }
 
+.hero-note {
+  max-width: 560px;
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 750;
+}
+
+.nav-download {
+  color: var(--ink);
+  background: var(--yellow);
+  border: 2px solid var(--border);
+  box-shadow: 0 3px 0 var(--shadow);
+}
+
+.final-cta .button { margin-top: 6px; }
+
 .trust-list {
   display: flex;
   flex-wrap: wrap;
@@ -372,6 +389,7 @@ h1 span { color: var(--blue); }
   .hero-copy { text-align: center; }
   .hero-lead { margin-inline: auto; }
   .hero-actions, .trust-list { justify-content: center; }
+  .hero-note { margin-inline: auto; }
   .hero-visual { width: min(580px, 100%); margin-inline: auto; transform: none; }
   .privacy-banner { grid-template-columns: auto 1fr; }
   .privacy-banner .button { grid-column: 1 / -1; }
@@ -384,6 +402,7 @@ h1 span { color: var(--blue); }
   .shell { width: min(100% - 28px, 1160px); }
   .site-header { min-height: 82px; }
   .site-header nav a { padding-inline: 9px; font-size: 0.86rem; }
+  .nav-download { display: none; }
   .brand small { display: none; }
   .brand img { width: 45px; height: 45px; }
   .hero { min-height: auto; padding-block: 54px 72px; }
